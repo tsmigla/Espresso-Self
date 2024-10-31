@@ -36,8 +36,8 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        Blog
-        {user && <button onClick={() => setWriting(true)}>New Article</button>}
+        the EspressoSelf blog
+        {user && <button onClick={() => setWriting(true)}>New Post</button>}
         {!user ? <SignIn /> : <SignOut />}
       </header>
 

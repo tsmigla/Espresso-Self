@@ -28,5 +28,6 @@ export async function fetchArticles() {
   return snapshot.docs.map((doc) => ({
     id: doc.id,
     ...doc.data(),
+    date:doc.data().date.toDate()
   }))
 }

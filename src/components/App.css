@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman';
 }
 
 .App {
@@ -14,7 +14,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #745d49;
   color: white;
   grid-column: 1 / span 2;
   padding: 10px 5px;
@@ -37,10 +37,12 @@ nav,
 article {
   height: 100%;
   padding: 10px;
+  color: #745d49
 }
 
 nav {
-  background-color: #dee9ff;
+  background-color: #f7f2e9;
+  color: #3b3029
 }
 
 nav p:hover {
@@ -50,14 +52,26 @@ nav p:hover {
 
 article .date {
   font-style: italic;
+  color: #745d49
 }
 
 article .body {
   white-space: break-spaces;
+  color: #745d49
 }
 
 .error {
-  background-color: red;
-  color: gold;
+  background-color: rgb(74, 22, 22);
+  color: rgb(181, 135, 49);
   padding: 5px;
+}
+
+
+button {
+  background-color: #745d49;
+  border-style: double;
+  border-color: #f7f2e9;
+  color: white;
+  padding: 5px 10px;
+  font-family: 'Times New Roman';
 }
