@@ -5,7 +5,7 @@ body {
 
 .App {
   display: grid;
-  grid-template-rows: min-content auto;
+  grid-template-rows: min-content auto min-content; 
   grid-template-columns: 250px auto;
   height: 100vh;
   overflow: scroll;
@@ -13,11 +13,11 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   background-color: #745d49;
   color: white;
   grid-column: 1 / span 2;
-  padding: 10px 5px;
+  padding: 15px 10px;
 }
 
 form {
@@ -37,12 +37,13 @@ nav,
 article {
   height: 100%;
   padding: 10px;
-  color: #745d49
+  color: #745d49;
 }
 
 nav {
   background-color: #f7f2e9;
-  color: #3b3029
+  color: #3b3029;
+  grid-row: 2 / span 2;;
 }
 
 nav p:hover {
@@ -66,12 +67,16 @@ article .body {
   padding: 5px;
 }
 
-
 button {
   background-color: #745d49;
   border-style: double;
   border-color: #f7f2e9;
+  background-image: "https://cdn.pixabay.com/photo/2022/03/03/15/40/coffee-7045578_1280.png";
   color: white;
   padding: 5px 10px;
   font-family: 'Times New Roman';
+}
+
+footer {
+  text-align: right;
 }

@@ -50,6 +50,22 @@ export default function App() {
       ) : (
         <Article article={article} />
       )}
+      
+      <footer>
+        {/* <img
+          style ={{ height: 170}}
+          src="https://cdn.pixabay.com/photo/2022/09/08/17/15/cafe-7441426_1280.png"
+          alt="coffe"
+        /> */}
+        
+        <img 
+          style ={{ height: 200}}
+          src="https://cdn.pixabay.com/photo/2020/11/25/10/56/maple-5775293_1280.png"
+          alt="hands holding leaf"
+        />
+      </footer>
+      
     </div>
   )
 }
+ 
