@@ -36,7 +36,7 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        the EspressoSelf blog
+        the EspressoSelf blog ♨
         {user && <button onClick={() => setWriting(true)}>New Post</button>}
         {!user ? <SignIn /> : <SignOut />}
       </header>
@@ -52,12 +52,6 @@ export default function App() {
       )}
       
       <footer>
-        {/* <img
-          style ={{ height: 170}}
-          src="https://cdn.pixabay.com/photo/2022/09/08/17/15/cafe-7441426_1280.png"
-          alt="coffe"
-        /> */}
-        
         <img 
           style ={{ height: 200}}
           src="https://cdn.pixabay.com/photo/2020/11/25/10/56/maple-5775293_1280.png"
